@@ -8,7 +8,7 @@ export default function Category() {
         <View style={{padding:20,  marginTop:10, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
       <Text style={{
        
-        fontSize:21,
+        fontSize:20,
         fontFamily:'outfit-bold'
       }}>Category
       </Text>
