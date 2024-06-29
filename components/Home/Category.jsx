@@ -5,10 +5,10 @@ import {Colors} from './../../constants/Colors'
 export default function Category() {
   return (
     <View>
-        <View style={{padding:19,  marginTop:10, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View style={{padding:20,  marginTop:10, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
       <Text style={{
        
-        fontSize:20,
+        fontSize:21,
         fontFamily:'outfit-bold'
       }}>Category
       </Text>
