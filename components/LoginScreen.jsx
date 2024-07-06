@@ -33,14 +33,14 @@ export default function LoginScreen() {
         style={{
           display: "flex",
           alignItems: "center",
-          marginTop: 120,
+          marginTop: 50,
         }}
       >
         <Image
-          source={require("./../assets/images/login.png")}
+          source={require("./../assets/images/login2.png")}
           style={{
-            width: 220,
-            height: 450,
+            width: 198,
+            height: 405,
             borderRadius: 20,
             borderWidth: 6,
             borderColor: "#000",
@@ -51,7 +51,7 @@ export default function LoginScreen() {
       <View style={styles.subContainer}>
         <Text
           style={{
-            fontSize: 30,
+            fontSize: 26,
             fontFamily: "outfit-bold",
             textAlign: "center",
           }}
@@ -95,8 +95,7 @@ const styles = StyleSheet.create({
   },
   btn: {
     backgroundColor: Colors.PRIMARY,
-    padding: 16,
+    padding: 12,
     borderRadius: 99,
-    marginTop: 20,
   },
 });

@@ -1,0 +1,22 @@
+{
+    "build": {
+      "sample": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "sample2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "sample3": {
+        "developmentClient": true
+      },
+      "sample4": {
+        "distribution": "internal"
+      },
+      "production": {}
+    }
+  }
+  
