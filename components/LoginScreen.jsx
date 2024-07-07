@@ -33,7 +33,7 @@ export default function LoginScreen() {
         style={{
           display: "flex",
           alignItems: "center",
-          marginTop: 50,
+          marginTop: 40,
         }}
       >
         <Image
