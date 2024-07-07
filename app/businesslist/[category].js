@@ -19,7 +19,7 @@ export default function BusinessListByCategory() {
             headerTitle: category,
             
         });
-        getBusinessList()
+        getBusinessList();
     },[]);
 
     /* Used to get business list by category */
@@ -41,8 +41,8 @@ export default function BusinessListByCategory() {
         {businessList?.length>0&&loading==false?  
         <FlatList
             data={businessList}
-            onRefresh={getBusinessList}
-            refreshing={loading}
+            /*onRefresh={getBusinessList}*/
+            /*refreshing={loading}*/
             renderItem={({item,index}) => (
                 <BusinessListCard key={index} business={item} />
             )}

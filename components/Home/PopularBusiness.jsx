@@ -20,14 +20,14 @@ export default function PopularBusiness() {
         const querySnapshot = await getDocs(q);
 
         querySnapshot.forEach((doc) => {
-            console.log(doc.data());
+            {/*console.log(doc.data());*/}
             setBusinessList(prev=>[...prev, {id:doc.id, ...doc.data()}])
         })
     }
 
   return (
     <View>
-      <View style={{paddingLeft:20, marginBottom:10,  marginTop:20, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+      <View style={{padding:20,  marginTop:10, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
       <Text style={{
         fontSize:20,
         fontFamily:'outfit-bold'

@@ -1,19 +1,19 @@
 {
     "build": {
-      "sample": {
+      "trial": {
         "android": {
           "buildType": "apk"
         }
       },
-      "sample2": {
+      "trial2": {
         "android": {
           "gradleCommand": ":app:assembleRelease"
         }
       },
-      "sample3": {
+      "trial3": {
         "developmentClient": true
       },
-      "sample4": {
+      "trial4": {
         "distribution": "internal"
       },
       "production": {}

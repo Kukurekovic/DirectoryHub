@@ -26,7 +26,7 @@ export default function Intro({business}) {
     }
 
     const deleteBusiness = async () => {
-        console.log('Delete Business');
+        {/*console.log('Delete Business');*/}
         await deleteDoc(doc(db, 'BusinessList', business?.id));
         router.back();
         ToastAndroid.show('Business Deleted!', ToastAndroid.LONG)
