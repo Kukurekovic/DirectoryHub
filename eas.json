@@ -1,19 +1,19 @@
 {
     "build": {
-      "case": {
+      "product": {
         "android": {
           "buildType": "apk"
         }
       },
-      "case2": {
+      "product2": {
         "android": {
           "gradleCommand": ":app:assembleRelease"
         }
       },
-      "case3": {
+      "product3": {
         "developmentClient": true
       },
-      "case4": {
+      "product4": {
         "distribution": "internal"
       },
       "production": {}

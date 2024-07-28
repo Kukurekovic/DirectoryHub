@@ -33,7 +33,7 @@ export default function MyBusiness() {
         const q = query(collection(db, 'BusinessList'), where('userEmail', '==', user?.primaryEmailAddress?.emailAddress));
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach((doc) => {
-            console.log(doc.data());
+            {/*console.log(doc.data());*/}
             setBusinessList(prev => [...prev,{id:doc.id, ...doc.data()}])
         })
         setLoading(false);

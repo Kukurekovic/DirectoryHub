@@ -66,7 +66,7 @@ export default function AddBusiness() {
         console.log("File Uploaded...")
       }).then(resp => {
         getDownloadURL(imageRef).then(async(downloadUrl) => {
-          console.log(downloadUrl);
+          {/*console.log(downloadUrl);*/}
           saveBusinessDetail(downloadUrl)
         })
       })
